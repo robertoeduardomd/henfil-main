@@ -1623,6 +1623,7 @@ img {
 .icon-secondary {
     color: #FFD541;
 }
+
 .icon-terciary {
     color: rgb(122, 255, 61);
 }
@@ -6079,7 +6080,7 @@ html:not(.lt-ie10) .not-animated {
     width: 36px;
     height: 36px;
     margin: 0 auto;
-    border: 3px solid yellow;
+    border: 3px solid blue;
     border-radius: 50%;
     border-left-color: transparent;
     border-bottom-color: transparent;

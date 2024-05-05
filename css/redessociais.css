@@ -1,0 +1,92 @@
+ #ulsocial {
+     font-weight: bolder;
+
+     list-style-type: none;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 25px;
+     color: white;
+     font-size: 16px;
+ }
+
+
+
+ #ulsocial li {
+
+     color: white;
+     width: 20px;
+     height: 20px;
+     background-color: white;
+     box-shadow: 0.2px 1px 10px rgb(255, 255, 255);
+     border-radius: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     transition: all 0.5s linear;
+     cursor: pointer;
+     overflow: hidden;
+ }
+
+ #ulsocial li:hover {
+     width: 180px;
+ }
+
+
+
+
+
+ #ulsocial li .icon {
+     color: #482344;
+     font-size: 1em;
+     transition: all 0.1s linear;
+ }
+
+ #ulsocial li .text {
+     cursor: pointer;
+     transform: scale(0);
+     transition: all 0.1s linear;
+     position: absolute;
+ }
+
+ #ulsocial li:hover .text {
+     transform: scale(1);
+ }
+
+ #ulsocial li:hover .icon {
+     transform: scale(0);
+
+ }
+
+ #ulsocial li span {
+     position: absolute;
+ }
+
+ #ulsocial li::before {
+     content: '';
+     position: absolute;
+     background-image: linear-gradient(45deg, var(--cor1), var(--cor2));
+     inset: 0;
+     opacity: 0;
+     border-radius: 60px;
+ }
+
+ #ulsocial li:hover::before {
+     opacity: 1;
+ }
+
+ h3 {
+     font-size: 50px;
+
+ }
+
+ .funcionamento {
+     gap: 50px;
+ }
+
+ .funcionamento>p {
+     display: inline-block;
+
+ }
